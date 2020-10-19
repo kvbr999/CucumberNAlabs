@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 35,
+        "name": "Create contact",
+        "description": "",
+        "id": "freecrm-login-feature;create-contact;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23403478500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on FreeCRM application login page",
+            "match": {
+              "location": "LoginCRMsteps.user_is_on_FreeCRM_application_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 319716600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters \"xlntvj@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xlntvj@gmail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginCRMsteps.user_enters_userid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 268450100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters \"Jegginakka@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jegginakka@1",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginCRMsteps.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180194134200,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027main-nav\u0027]/a[3]\"}\n  (Session info: chrome\u003d86.0.4240.75)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027DESKTOP-MUKSUPD\u0027, ip: \u0027192.168.1.39\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Vijay\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0e591427f556338a8f933ff7fad7e797\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027main-nav\u0027]/a[3]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat stepDefinations.LoginCRMsteps.user_navigates_to_contacts_section(LoginCRMsteps.java:66)\r\n\tat ✽.Then user navigates to contacts section(LoginCRM.feature:28)\r\n",
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "user navigates to contacts section",
+            "match": {
+              "location": "LoginCRMsteps.user_navigates_to_contacts_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "click on new button",
+            "match": {
+              "location": "LoginCRMsteps.click_on_new_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user provides firstname and lastname and country",
+            "match": {
+              "location": "LoginCRMsteps.user_provides_firstname_and_lastname_and_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "click on Save button",
+            "match": {
+              "location": "LoginCRMsteps.click_on_Save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Login Feature",
+    "description": "",
+    "id": "freecrm-login-feature",
+    "keyword": "Feature",
+    "uri": "LoginCRM.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
